@@ -12,6 +12,7 @@ Run the following command to execute the installation script:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/yourusername/install-kubernetes-script/main/install-k8s.sh | bash
+```
 Note: This script is based on the tutorial from StackThrow and incorporates documentation from Kubernetes and Docker.
 
 # 📋 Prerequisites
