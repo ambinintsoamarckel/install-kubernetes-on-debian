@@ -8,7 +8,7 @@ log() {
 
 # Arrêter le script en cas d'erreur et enregistrer dans le log
 set -e
-trap 'log "Une erreur s\'est produite. Arrêt du script." ; exit 1' ERR
+trap "log 'Une erreur s'est produite. Arrêt du script.'; exit 1" ERR
 
 # Vérification de la connexion Internet
 log "Vérification de la connexion Internet"
